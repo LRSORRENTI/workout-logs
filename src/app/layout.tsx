@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className} ml-2>
       <ThemeProvider
             attribute="class"
             defaultTheme="system"
@@ -26,7 +26,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
         <nav className='flex justify-between'>
-          <h1 className='ml-2'>
+          <h1>
             Workout Logs
           </h1>
           <ModeToggle/>
