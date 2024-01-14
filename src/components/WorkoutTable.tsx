@@ -9,15 +9,15 @@ import {
   } from "@/components/ui/table"
   export default function WorkoutTable() {
     return (
-        <div>
-    <div className="grid grid-rows-4 grid-cols-4" style={{border: "2px solid magenta"}}>
+        <div className="flex justify-center">
+    <div className="" style={{width: "500px"}}>
     {/* <div className="flex flex-col sm:flex-row justify-evenly "> */}
     <div className="grid grid-flow-dense ">
   <div className="">
   <Table>
   <TableHeader>
-    <div className="flex justify-center">
-  <h2 className="" style={{width: "200px", border: "1px solid red"}}>Barbell Curls</h2>
+    <div className="flex justify-center ">
+  <h2 className="" style={{width: "300px"}}>Barbell Curls</h2>
   </div>
     <TableRow>
     {/* <h2>barbell curl</h2> */}
@@ -64,7 +64,7 @@ import {
 <Table>
   <TableHeader>
   <div className="flex justify-center">
-  <h2 className="" style={{ minWidth: "200px" ,border: "1px solid red"}}>Lat Pulldowns</h2>
+  <h2 className="" style={{ width: "300px"}}>Lat Pulldowns</h2>
   </div>
     <TableRow>
       <TableHead className="w-[100px]">Set</TableHead>
@@ -108,7 +108,7 @@ import {
 <Table>
   <TableHeader>
   <div className="flex justify-center">
-  <h2 className="" style={{ minWidth: "200px" ,border: "1px solid red"}}>Barbell Rows</h2>
+  <h2 className="" style={{ minWidth: "300px"}}>Barbell Rows</h2>
   </div>
     <TableRow>
       <TableHead className="w-[100px]">Set</TableHead>
@@ -152,7 +152,7 @@ import {
 <Table>
   <TableHeader>
   <div className="flex justify-center">
-  <h2 className="" style={{ minWidth: "200px" ,border: "1px solid red"}}>Concentration Curls</h2>
+  <h2 className="" style={{ minWidth: "300px"}}>Concentration Curls</h2>
   </div>
     <TableRow>
       <TableHead className="w-[100px]">Set</TableHead>
@@ -196,7 +196,7 @@ import {
 <Table>
   <TableHeader>
   <div className="flex justify-center">
-  <h2 className="" style={{ minWidth: "200px" ,border: "1px solid red"}}>Hammer Curls</h2>
+  <h2 className="" style={{ width: "300px"}}>Hammer Curls</h2>
   </div>
     <TableRow>
       <TableHead className="w-[100px]">Set</TableHead>
@@ -240,7 +240,7 @@ import {
 <Table>
   <TableHeader>
   <div className="flex justify-center">
-  <h2 className="" style={{ minWidth: "200px" ,border: "1px solid red"}}>Close / Wide Grip Barbell Curls</h2>
+  <h2 className="" style={{ width: "300px"}}>Close Grip Barbell Curls</h2>
   </div>
     <TableRow>
       <TableHead className="w-[100px]">Set</TableHead>
