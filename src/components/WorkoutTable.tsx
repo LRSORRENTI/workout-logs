@@ -9,14 +9,15 @@ import {
   } from "@/components/ui/table"
   export default function WorkoutTable() {
     return (
-        <div className="flex justify-center bg-indigo-500">
-          <div className="flex justify-center flex-col md:flex-row md:flex-wrap">
+      <div className="flex justify-center">
+        <div className="flex justify-center max-w-4xl">
+          <div className="flex justify-center flex-col sm:flex-row sm:flex-wrap">
           <div className="table-wrap">
-          <p className="flex justify-center text-2xl font-extrabold mb-1" >Barbell Curls</p>
-  <Table className="w-80 bg-slate-800 rounded-xl mx-4">
+          <p className="flex justify-center text-1xl font-extrabold mb-1" >Barbell Curls</p>
+  <Table className="w-60 bg-slate-800 rounded-xl mx-4 table-wrap">
   <TableHeader>
     <TableRow>
-      <TableHead className="w-[100px]">Set</TableHead>
+      <TableHead className="w-[80px]">Set</TableHead>
       <TableHead>Reps</TableHead>
       <TableHead>Weight</TableHead>
     </TableRow>
@@ -56,11 +57,11 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<p className="flex justify-center text-2xl font-extrabold mb-1" >Lat Pulldowns</p>
-<Table className="w-80 bg-slate-800 rounded-xl mx-4">
+<p className="flex justify-center text-1xl font-extrabold mb-1" >Lat Pulldowns</p>
+<Table className="w-60 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
     <TableRow>
-      <TableHead className="w-[100px]">Set</TableHead>
+      <TableHead className="w-[80px]">Set</TableHead>
       <TableHead>Reps</TableHead>
       <TableHead>Weight</TableHead>
     </TableRow>
@@ -100,11 +101,11 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<p className="flex justify-center text-2xl font-extrabold mb-1" >Barbell Rows</p>
-<Table className="w-80 bg-slate-800 rounded-xl mx-4">
+<p className="flex justify-center text-1xl font-extrabold mb-1" >Barbell Rows</p>
+<Table className="w-60 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
 <TableRow>
-      <TableHead className="w-[100px]">Set</TableHead>
+      <TableHead className="w-[80px]">Set</TableHead>
       <TableHead>Reps</TableHead>
       <TableHead>Weight</TableHead>
     </TableRow>
@@ -144,11 +145,11 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<p className="flex justify-center text-2xl font-extrabold mb-1" >Concentration Curls</p>
-<Table className="w-80 bg-slate-800 rounded-xl mx-4">
+<p className="flex justify-center text-1xl font-extrabold mb-1" >Concentration Curls</p>
+<Table className="w-60 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
     <TableRow>
-      <TableHead className="w-[100px]">Set</TableHead>
+      <TableHead className="w-[80px]">Set</TableHead>
       <TableHead>Reps</TableHead>
       <TableHead>Weight</TableHead>
     </TableRow>
@@ -188,11 +189,11 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<p className="flex justify-center text-2xl font-extrabold mb-1">Hammer Curls</p>
-<Table className="w-80 bg-slate-800 rounded-xl mx-4">
+<p className="flex justify-center text-1xl font-extrabold mb-1">Hammer Curls</p>
+<Table className="w-60 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
     <TableRow>
-      <TableHead className="w-[100px]">Set</TableHead>
+      <TableHead className="w-[80px]">Set</TableHead>
       <TableHead>Reps</TableHead>
       <TableHead>Weight</TableHead>
     </TableRow>
@@ -232,11 +233,11 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<p className="flex justify-center text-2xl font-extrabold mb-1" >Close Grip Barbell Curls</p>
-<Table className="w-80 bg-slate-800 rounded-xl mx-4">
+<p className="flex justify-center text-1xl font-extrabold mb-1">Close Grip Barbell Curls</p>
+<Table className="w-60 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
     <TableRow>
-      <TableHead className="w-[100px]">Set</TableHead>
+      <TableHead className="w-[80px]">Set</TableHead>
       <TableHead>Reps</TableHead>
       <TableHead>Weight</TableHead>
     </TableRow>
@@ -274,6 +275,7 @@ import {
     </TableRow>
   </TableBody>
 </Table>
+</div>
 </div>
 </div>
 </div>

@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className} ml-2>
+      <body className={inter.className}>
       <ThemeProvider
             attribute="class"
             defaultTheme="system"
@@ -29,7 +29,7 @@ export default function RootLayout({
           <h1>
             Workout Logs
           </h1>
-          <ModeToggle/>
+          {/* <ModeToggle/> */}
         </nav>
         {children}
         </ThemeProvider>
