@@ -9,10 +9,11 @@ import {
   } from "@/components/ui/table"
   export default function WorkoutTable() {
     return (
-        <div className="flex flex-wrap bg-indigo-500">
+        <div className="flex justify-center bg-indigo-500">
+          <div className="flex justify-center flex-col md:flex-row md:flex-wrap">
           <div className="table-wrap">
-          <h2 className="">Barbell Curls</h2>
-  <Table className="w-80 bg-slate-800" style={{border: "2px solid magenta"}}>
+          <p className="flex justify-center text-2xl font-extrabold mb-1" >Barbell Curls</p>
+  <Table className="w-80 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
     <TableRow>
       <TableHead className="w-[100px]">Set</TableHead>
@@ -55,8 +56,8 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<h2 className="">Lat Pulldowns</h2>
-<Table className="w-80 bg-slate-800" style={{border: "2px solid magenta"}}>
+<p className="flex justify-center text-2xl font-extrabold mb-1" >Lat Pulldowns</p>
+<Table className="w-80 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
     <TableRow>
       <TableHead className="w-[100px]">Set</TableHead>
@@ -99,8 +100,8 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<h2 className="">Barbell Rows</h2>
-<Table className="w-80 bg-slate-800" style={{border: "2px solid magenta"}}>
+<p className="flex justify-center text-2xl font-extrabold mb-1" >Barbell Rows</p>
+<Table className="w-80 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
 <TableRow>
       <TableHead className="w-[100px]">Set</TableHead>
@@ -143,8 +144,8 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<h2 className="">Concentration Curls</h2>
-<Table className="w-80 bg-slate-800" style={{border: "2px solid magenta"}}>
+<p className="flex justify-center text-2xl font-extrabold mb-1" >Concentration Curls</p>
+<Table className="w-80 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
     <TableRow>
       <TableHead className="w-[100px]">Set</TableHead>
@@ -187,8 +188,8 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<h2 className="">Hammer Curls</h2>
-<Table className="w-80 bg-slate-800" style={{border: "2px solid magenta"}}>
+<p className="flex justify-center text-2xl font-extrabold mb-1">Hammer Curls</p>
+<Table className="w-80 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
     <TableRow>
       <TableHead className="w-[100px]">Set</TableHead>
@@ -231,8 +232,8 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<h2 className="" >Close Grip Barbell Curls</h2>
-<Table className="w-80 bg-slate-800" style={{border: "2px solid magenta"}}>
+<p className="flex justify-center text-2xl font-extrabold mb-1" >Close Grip Barbell Curls</p>
+<Table className="w-80 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
     <TableRow>
       <TableHead className="w-[100px]">Set</TableHead>
@@ -273,6 +274,7 @@ import {
     </TableRow>
   </TableBody>
 </Table>
+</div>
 </div>
 </div>
     );
