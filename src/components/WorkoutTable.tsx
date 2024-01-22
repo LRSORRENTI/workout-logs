@@ -7,8 +7,13 @@ import {
     TableHeader,
     TableRow,
   } from "@/components/ui/table"
+  import '../app/tableStyles.css'
   export default function WorkoutTable() {
     return (
+      <>
+      <div className="wrap-p">
+      <p className="main-p text-center text-3xl mb-3">Back / Biceps</p>
+      </div>
       <div className="flex justify-center">
         <div className="flex justify-center max-w-4xl">
           <div className="flex justify-center flex-col sm:flex-row sm:flex-wrap">
@@ -279,5 +284,6 @@ import {
 </div>
 </div>
 </div>
+</>
     );
   };

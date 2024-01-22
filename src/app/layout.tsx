@@ -25,7 +25,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-        <nav className='flex justify-between'>
+        <nav className='flex justify-center'>
           <h1>
             Workout Logs
           </h1>
