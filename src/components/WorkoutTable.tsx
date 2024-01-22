@@ -13,7 +13,7 @@ import {
         <div className="flex justify-center max-w-4xl">
           <div className="flex justify-center flex-col sm:flex-row sm:flex-wrap">
           <div className="table-wrap">
-          <p className="flex justify-center text-1xl font-extrabold mb-1" >Barbell Curls</p>
+          <p className="flex justify-center text-1xl font-extrabold mb-2" >Barbell Curls</p>
   <Table className="w-60 bg-slate-800 rounded-xl mx-4 table-wrap">
   <TableHeader>
     <TableRow>
@@ -57,7 +57,7 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<p className="flex justify-center text-1xl font-extrabold mb-1" >Lat Pulldowns</p>
+<p className="flex justify-center text-1xl font-extrabold mb-2" >Lat Pulldowns</p>
 <Table className="w-60 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
     <TableRow>
@@ -101,7 +101,7 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<p className="flex justify-center text-1xl font-extrabold mb-1" >Barbell Rows</p>
+<p className="flex justify-center text-1xl font-extrabold mb-2" >Barbell Rows</p>
 <Table className="w-60 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
 <TableRow>
@@ -145,7 +145,7 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<p className="flex justify-center text-1xl font-extrabold mb-1" >Concentration Curls</p>
+<p className="flex justify-center text-1xl font-extrabold mb-2" >Concentration Curls</p>
 <Table className="w-60 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
     <TableRow>
@@ -189,7 +189,7 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<p className="flex justify-center text-1xl font-extrabold mb-1">Hammer Curls</p>
+<p className="flex justify-center text-1xl font-extrabold mb-2">Hammer Curls</p>
 <Table className="w-60 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
     <TableRow>
@@ -233,7 +233,7 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<p className="flex justify-center text-1xl font-extrabold mb-1">Close Grip Barbell Curls</p>
+<p className="flex justify-center text-1xl font-extrabold mb-2">Close Grip Barbell Curls</p>
 <Table className="w-60 bg-slate-800 rounded-xl mx-4">
   <TableHeader>
     <TableRow>
