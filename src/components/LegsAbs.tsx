@@ -20,11 +20,12 @@ import {
           <div className="table-wrap">
           <p className="flex justify-center text-1xl font-extrabold mb-2 lift-title" >Leg Raises</p>
   <Table className="w-60 bg-slate-800 rounded-xl mx-4 table-wrap table-color">
+  <div className="table-head-wrap">
   <TableHeader>
     <TableRow>
-      <TableHead className="w-[80px]">Set</TableHead>
-      <TableHead>Reps</TableHead>
-      <TableHead>Weight</TableHead>
+      <TableHead className="w-[80px] text-white font-extrabold ">Set</TableHead>
+      <TableHead className="text-white font-extrabold ">Reps</TableHead>
+      <TableHead className="text-white font-extrabold ">Weight</TableHead>
     </TableRow>
   </TableHeader>
   <TableBody>
@@ -59,16 +60,18 @@ import {
       <TableCell>7.5lbs</TableCell>
     </TableRow>
   </TableBody>
+  </div>
 </Table>
 </div>
 <div className="table-wrap">
 <p className="flex justify-center text-1xl font-extrabold mb-2 lift-title" >Sit Ups</p>
 <Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color">
+<div className="table-head-wrap">
   <TableHeader>
     <TableRow>
-      <TableHead className="w-[80px]">Set</TableHead>
-      <TableHead>Reps</TableHead>
-      <TableHead>Weight</TableHead>
+      <TableHead className="w-[80px] text-white font-extrabold ">Set</TableHead>
+      <TableHead className="text-white font-extrabold ">Reps</TableHead>
+      <TableHead className="text-white font-extrabold ">Weight</TableHead>
     </TableRow>
   </TableHeader>
   <TableBody>
@@ -103,16 +106,19 @@ import {
       <TableCell>Bodyweight</TableCell>
     </TableRow>
   </TableBody>
+  </div>
 </Table>
 </div>
 <div className="table-wrap">
 <p className="flex justify-center text-1xl font-extrabold mb-2 lift-title" >Barbell Squats</p>
 <Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color">
+<div className="table-head-wrap">
+  
   <TableHeader>
 <TableRow>
-      <TableHead className="w-[80px]">Set</TableHead>
-      <TableHead>Reps</TableHead>
-      <TableHead>Weight</TableHead>
+      <TableHead className="w-[80px] text-white font-extrabold ">Set</TableHead>
+      <TableHead className="text-white font-extrabold ">Reps</TableHead>
+      <TableHead className="text-white font-extrabold ">Weight</TableHead>
     </TableRow>
   </TableHeader>
   <TableBody>
@@ -147,16 +153,18 @@ import {
       <TableCell>160lbs</TableCell>
     </TableRow>
   </TableBody>
+  </div>
 </Table>
 </div>
 <div className="table-wrap">
 <p className="flex justify-center text-1xl font-extrabold mb-2 lift-title" >Calf Raises</p>
 <Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color">
+<div className="table-head-wrap">
   <TableHeader>
     <TableRow>
-      <TableHead className="w-[80px]">Set</TableHead>
-      <TableHead>Reps</TableHead>
-      <TableHead>Weight</TableHead>
+      <TableHead className="w-[80px] text-white font-extrabold ">Set</TableHead>
+      <TableHead className="text-white font-extrabold ">Reps</TableHead>
+      <TableHead className="text-white font-extrabold ">Weight</TableHead>
     </TableRow>
   </TableHeader>
   <TableBody>
@@ -191,16 +199,18 @@ import {
       <TableCell>45lbs</TableCell>
     </TableRow>
   </TableBody>
+  </div>
 </Table>
 </div>
 <div className="table-wrap">
 <p className="flex justify-center text-1xl font-extrabold mb-2 lift-title">Bodyweight Planks</p>
 <Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color">
-  <TableHeader>
-    <TableRow>
-      <TableHead className="w-[80px]">Set</TableHead>
-      <TableHead>Reps</TableHead>
-      <TableHead>Weight</TableHead>
+<div className="table-head-wrap">
+<TableHeader>
+    <TableRow className="table-row-1">
+      <TableHead className="w-[80px] text-white font-extrabold ">Set</TableHead>
+      <TableHead className=" text-white font-extrabold ">Reps</TableHead>
+      <TableHead className=" text-white font-extrabold ">Weight</TableHead>
     </TableRow>
   </TableHeader>
   <TableBody>
@@ -235,16 +245,18 @@ import {
       <TableCell>Bodyweight</TableCell>
     </TableRow>
   </TableBody>
+  </div>
 </Table>
 </div>
 <div className="table-wrap">
 <p className="flex justify-center text-1xl font-extrabold mb-2 lift-title">Oblique Crunches</p>
-<Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color">
+<Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color" >
+  <div className="table-head-wrap">
   <TableHeader>
-    <TableRow>
-      <TableHead className="w-[80px]">Set</TableHead>
-      <TableHead>Reps</TableHead>
-      <TableHead>Weight</TableHead>
+    <TableRow className="table-row-1">
+      <TableHead className="w-[80px] text-white font-extrabold ">Set</TableHead>
+      <TableHead className=" text-white font-extrabold ">Reps</TableHead>
+      <TableHead className=" text-white font-extrabold ">Weight</TableHead>
     </TableRow>
   </TableHeader>
   <TableBody>
@@ -279,6 +291,7 @@ import {
       <TableCell>Bodyweight</TableCell>
     </TableRow>
   </TableBody>
+  </div>
 </Table>
 </div>
 </div>
