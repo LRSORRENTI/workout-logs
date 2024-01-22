@@ -12,13 +12,13 @@ import {
     return (
       <>
       <div className="wrap-p">
-      <p className="main-p-chest text-center text-3xl mb-3">Chest / Triceps / Shoulders</p>
+      <p className="main-p-chest text-center text-1xl sm:text-2xl md:text-4xl mb-3">Chest / Triceps / Shoulders</p>
       </div>
       <div className="flex justify-center">
         <div className="flex justify-center max-w-4xl">
           <div className="flex justify-center flex-col sm:flex-row sm:flex-wrap">
           <div className="table-wrap">
-          <p className="flex justify-center text-1xl font-extrabold mb-2" >Barbell Bench</p>
+          <p className="flex justify-center text-1xl font-extrabold mb-2 lift-title" >Barbell Bench</p>
   <Table className="w-60 bg-slate-800 rounded-xl mx-4 table-wrap table-color">
   <TableHeader>
     <TableRow>
@@ -62,7 +62,7 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<p className="flex justify-center text-1xl font-extrabold mb-2" >Barbell Shoulder Press</p>
+<p className="flex justify-center text-1xl font-extrabold mb-2 lift-title" >Barbell Shoulder Press</p>
 <Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color">
   <TableHeader>
     <TableRow>
@@ -106,7 +106,7 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<p className="flex justify-center text-1xl font-extrabold mb-2" >Cable Pushdowns</p>
+<p className="flex justify-center text-1xl font-extrabold mb-2 lift-title" >Cable Pushdowns</p>
 <Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color">
   <TableHeader>
 <TableRow>
@@ -150,7 +150,7 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<p className="flex justify-center text-1xl font-extrabold mb-2" >Close Grip Barbell Bench</p>
+<p className="flex justify-center text-1xl font-extrabold mb-2 lift-title" >Close Grip Barbell Bench</p>
 <Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color">
   <TableHeader>
     <TableRow>
@@ -194,7 +194,7 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<p className="flex justify-center text-1xl font-extrabold mb-2">Barbell Shrugs</p>
+<p className="flex justify-center text-1xl font-extrabold mb-2 lift-title">Barbell Shrugs</p>
 <Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color">
   <TableHeader>
     <TableRow>
@@ -238,7 +238,7 @@ import {
 </Table>
 </div>
 <div className="table-wrap">
-<p className="flex justify-center text-1xl font-extrabold mb-2">Flys</p>
+<p className="flex justify-center text-1xl font-extrabold mb-2 lift-title">Flys</p>
 <Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color">
   <TableHeader>
     <TableRow>
