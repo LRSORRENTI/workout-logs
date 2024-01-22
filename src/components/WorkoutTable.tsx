@@ -19,7 +19,7 @@ import {
           <div className="flex justify-center flex-col sm:flex-row sm:flex-wrap">
           <div className="table-wrap">
           <p className="flex justify-center text-1xl font-extrabold mb-2" >Barbell Curls</p>
-  <Table className="w-60 bg-slate-800 rounded-xl mx-4 table-wrap">
+  <Table className="w-60 bg-slate-800 rounded-xl mx-4 table-wrap table-color">
   <TableHeader>
     <TableRow>
       <TableHead className="w-[80px]">Set</TableHead>
@@ -63,7 +63,7 @@ import {
 </div>
 <div className="table-wrap">
 <p className="flex justify-center text-1xl font-extrabold mb-2" >Lat Pulldowns</p>
-<Table className="w-60 bg-slate-800 rounded-xl mx-4">
+<Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color">
   <TableHeader>
     <TableRow>
       <TableHead className="w-[80px]">Set</TableHead>
@@ -107,7 +107,7 @@ import {
 </div>
 <div className="table-wrap">
 <p className="flex justify-center text-1xl font-extrabold mb-2" >Barbell Rows</p>
-<Table className="w-60 bg-slate-800 rounded-xl mx-4">
+<Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color">
   <TableHeader>
 <TableRow>
       <TableHead className="w-[80px]">Set</TableHead>
@@ -151,7 +151,7 @@ import {
 </div>
 <div className="table-wrap">
 <p className="flex justify-center text-1xl font-extrabold mb-2" >Concentration Curls</p>
-<Table className="w-60 bg-slate-800 rounded-xl mx-4">
+<Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color">
   <TableHeader>
     <TableRow>
       <TableHead className="w-[80px]">Set</TableHead>
@@ -195,7 +195,7 @@ import {
 </div>
 <div className="table-wrap">
 <p className="flex justify-center text-1xl font-extrabold mb-2">Hammer Curls</p>
-<Table className="w-60 bg-slate-800 rounded-xl mx-4">
+<Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color">
   <TableHeader>
     <TableRow>
       <TableHead className="w-[80px]">Set</TableHead>
@@ -239,7 +239,7 @@ import {
 </div>
 <div className="table-wrap">
 <p className="flex justify-center text-1xl font-extrabold mb-2">Close Grip Barbell Curls</p>
-<Table className="w-60 bg-slate-800 rounded-xl mx-4">
+<Table className="w-60 bg-slate-800 rounded-xl mx-4 table-color">
   <TableHeader>
     <TableRow>
       <TableHead className="w-[80px]">Set</TableHead>
