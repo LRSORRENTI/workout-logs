@@ -25,7 +25,7 @@ import {
     <TableRow>
       <TableHead className="w-[80px] text-white font-extrabold ">Set</TableHead>
       <TableHead className="text-white font-extrabold ">Reps</TableHead>
-      <TableHead className="text-white font-extrabold ">Weight</TableHead>
+      <TableHead className="text-white font-extrabold">Weight</TableHead>
     </TableRow>
   </TableHeader>
   <TableBody>
