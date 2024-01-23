@@ -10,7 +10,7 @@ export default function LogCalendar(){
 return (
   <div>
   <div className="flex justify-center">
-    <p className="lift-title font-extrabold">Click Day To Add Workout</p>
+    <p className="lift-title font-extrabold text-center">Click Day To Add Workout Or View Previous Workouts</p>
   </div>
   <div className="flex justify-center ">
   <Calendar
