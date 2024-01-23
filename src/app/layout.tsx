@@ -27,7 +27,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
         <nav className='flex justify-center'>
-          <h1 className='main-h1'>
+          <h1 className='main-h1 mr-2 md:mr-3'>
             Workout Logs
           </h1>
           {/* <ModeToggle/> */}
