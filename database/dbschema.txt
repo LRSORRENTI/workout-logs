@@ -1,3 +1,10 @@
+
+1. RUN 'sqlite3 workout.db' inside project directory
+2. .fullschema to view current schemas 
+3. that's as far as I got today, need to insert some 
+data and try to render it on the page, then start 
+adding components and styling
+
 4 Categories or schemas
 1. Chest Tri Shoulders
 2. Back Biceps 
