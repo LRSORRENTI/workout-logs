@@ -1,0 +1,51 @@
+4 Categories or schemas
+1. Chest Tri Shoulders
+2. Back Biceps 
+3. Legs Abs
+4. Cardio
+
+TABLE IN CATEGORY 1 - 3
+Exercise Name VARCHAR(20) NOT NULL
+Sets INTEGER NOT NULL 
+Reps INTEGER NOT NULL
+Notes VARCHAR(80) 
+Timestamp 
+
+TABLE IN CARDIO 
+Exercise Name VARCHAR(20) NOT NULL
+Duration VARCHAR(40) NOT NULL
+Notes 
+Timestamp
+
+.fullschema
+CREATE TABLE ChestTricepsShoulders (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    ExerciseName VARCHAR(20) NOT NULL,
+    Sets INTEGER NOT NULL,
+    Reps INTEGER NOT NULL,
+    Notes VARCHAR(80),
+    Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE Cardio (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    ExerciseName VARCHAR(20) NOT NULL,
+    Duration VARCHAR(40) NOT NULL,
+    Notes VARCHAR(80),
+    Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE BackBiceps (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    ExerciseName VARCHAR(20) NOT NULL,
+    Sets INTEGER NOT NULL,
+    Reps INTEGER NOT NULL,
+    Notes VARCHAR(80),
+    Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE LegsAbs (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    ExerciseName VARCHAR(20) NOT NULL,
+    Sets INTEGER NOT NULL,
+    Reps INTEGER NOT NULL,
+    Notes VARCHAR(80),
+    Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
